@@ -25,12 +25,7 @@ plugins:
 
 # Navigation
 header_pages:
-  - about.md
-  - research.md
-  - projects.md
-  - publications.md
-  - teaching.md
-  - students.md
+  - index.md
 
 # Exclude from processing
 exclude:
