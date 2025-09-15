@@ -4,8 +4,8 @@ layout: default
 
 <div class="profile-section">
   <div class="profile-image">
-    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="胡慧琦" />
-    <h2>胡慧琦</h2>
+    <img src="{{ '/assets/images/profile.JPG' | relative_url }}" alt="胡卉芪" />
+    <h2>胡卉芪</h2>
     <p><strong>{{ site.author.position }}</strong></p>
     <p>{{ site.author.department }}</p>
     <p>{{ site.author.institution }}</p>
