@@ -31,19 +31,15 @@ layout: default
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
       <a href="{{ '/huhuiqi/projects' | relative_url }}" style="display: block; padding: 1rem; background: #e74c3c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
         <strong>🚀 项目系统</strong><br>
-        <small>查看科研项目</small>
       </a>
       <a href="{{ '/huhuiqi/publications' | relative_url }}" style="display: block; padding: 1rem; background: #f39c12; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
         <strong>📄 论文发表</strong><br>
-        <small>学术成果展示</small>
       </a>
       <a href="{{ '/huhuiqi/teaching' | relative_url }}" style="display: block; padding: 1rem; background: #27ae60; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
-        <strong>👨‍🏫 课程</strong><br>
-        <small>教学课程介绍</small>
+        <strong>👨‍🏫 课程开设</strong><br>
       </a>
       <a href="{{ '/huhuiqi/students' | relative_url }}" style="display: block; padding: 1rem; background: #9b59b6; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
-        <strong>🎓 研究生就业</strong><br>
-        <small>学生就业指导</small>
+        <strong>🎓 毕业生去向</strong><br>
       </a>
     </div>
   </div>
