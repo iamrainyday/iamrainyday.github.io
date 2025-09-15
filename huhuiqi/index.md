@@ -5,33 +5,24 @@ layout: default
 <div class="profile-section">
   <div class="profile-image">
     <img src="{{ '/assets/images/profile.JPG' | relative_url }}" alt="胡卉芪" />
-    <h2>胡卉芪</h2>
-    <p><strong>{{ site.author.position }}</strong></p>
-    <p>{{ site.author.department }}</p>
-    <p>{{ site.author.institution }}</p>
-    <p>📧 {{ site.author.email }}</p>
+    <h2>胡卉芪 Huiqi Hu</h2>
+
+    <p><strong>email: hqhu@dase.ecnu.edu.cn</strong></p>
+    <p>华东师范大学 数据科学与工程学院</p>
   </div>
   
   <div class="profile-info">
     <h2>个人简介</h2>
     <p>
-      欢迎来到我的学术主页！我是一名计算机科学领域的研究者，专注于人工智能、机器学习和数据科学等前沿技术的研究与应用。
-      我致力于通过创新的研究推动科技进步，并培养下一代优秀的科研人才。
+      胡卉芪，华东师范大学数据科学与工程学院，教授,博士生导师。 胡卉芪于2016年在清华大学获博士学位，加入华师大数据学院。主要研究方向为数据管理系统与理论。在VLDB、ICDE、ATC等相关领域国际会议与期刊上发表高质量学术成果50余篇，获国家科技进步二等奖（2019年）与教育部科技进步一等奖，国家级教学成果二等奖（2023年）等荣誉，参与编著《数据科学与工程算法基础》、《云原生数据仓库原理与实践》等教材与技术专著。
     </p>
     
-    <p>
-      在我的学术生涯中，我主持和参与了多项国家级和省部级科研项目，在国际顶级期刊和会议上发表了多篇高质量论文。
-      我相信科学研究的价值在于解决实际问题，推动社会进步。
-    </p>
 
     <h3>研究兴趣</h3>
     <div class="skills-tags">
-      <span class="skill-tag">人工智能</span>
-      <span class="skill-tag">机器学习</span>
-      <span class="skill-tag">深度学习</span>
-      <span class="skill-tag">数据挖掘</span>
-      <span class="skill-tag">计算机视觉</span>
-      <span class="skill-tag">自然语言处理</span>
+      <span class="skill-tag">数据管理系统/数据系统</span>
+      <span class="skill-tag">面向Data+AI的智能系统</span>
+      <span class="skill-tag">数据系统智能体(Agent)</span>
     </div>
 
     <h3>快速导航</h3>
