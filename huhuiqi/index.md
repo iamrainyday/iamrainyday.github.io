@@ -7,7 +7,7 @@ layout: default
     <img src="{{ '/assets/images/profile.JPEG' | relative_url }}" alt="胡卉芪" />
     <h2>胡卉芪 Huiqi Hu</h2>
 
-    <p><strong>email: hqhu@dase.ecnu.edu.cn</strong></p>
+    <p><strong>Email: hqhu@dase.ecnu.edu.cn</strong></p>
     <p>华东师范大学 数据科学与工程学院</p>
   </div>
   
@@ -21,7 +21,9 @@ layout: default
     <h3>研究兴趣</h3>
     <div class="skills-tags">
       <span class="skill-tag">数据管理系统/数据系统</span>
+      <span class="skill-tag"> " "</span>
       <span class="skill-tag">面向Data+AI的智能系统</span>
+      <span class="skill-tag"> " "</span>
       <span class="skill-tag">数据系统智能体(Agent)</span>
     </div>
 
