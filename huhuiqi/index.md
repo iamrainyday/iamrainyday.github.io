@@ -27,10 +27,6 @@ layout: default
 
     <h3>快速导航</h3>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
-      <a href="{{ '/huhuiqi/research' | relative_url }}" style="display: block; padding: 1rem; background: #3498db; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
-        <strong>🔬 研究方向</strong><br>
-        <small>了解我的研究领域</small>
-      </a>
       <a href="{{ '/huhuiqi/projects' | relative_url }}" style="display: block; padding: 1rem; background: #e74c3c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
         <strong>🚀 项目系统</strong><br>
         <small>查看科研项目</small>
@@ -85,7 +81,7 @@ layout: default
       <div class="item-meta">清华大学 | 2011-2016</div>
     </li>
     <li>
-      <div class="item-title">学士学位</div>
+      <div class="item-title">学士</div>
       <div class="item-meta">西安电子科技大学| 2007-2011</div>
     </li>
   </ul>
