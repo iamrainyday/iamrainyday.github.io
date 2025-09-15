@@ -19,13 +19,10 @@ layout: default
     
 
     <h3 style="color: #2c3e50; font-size: 1.4rem; margin-top: 2rem; margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #3498db; display: inline-block;">🎯 研究兴趣</h3>
-    <div class="skills-tags">
-      <span class="skill-tag">数据管理系统/数据系统</span>
-      
-      <span class="skill-tag">面向Data+AI的智能系统</span>
-      
-      <span class="skill-tag">数据系统智能体(Agent)</span>
-    </div>
+    <div class="content-card">数据管理系统/数据系统内核</div>
+    <div class="content-card">面向Data+AI的智能系统</div>
+    <div class="content-card">数据系统智能体(Agent)</div>
+    <div 数据管理系统/数据系统
 
     <h3>快速导航</h3>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
