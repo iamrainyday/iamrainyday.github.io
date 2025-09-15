@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-nav">
+        <div class="site-title">
+          <a href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+        </div>
+        <nav>
+          <a href="{{ '/' | relative_url }}">首页</a>
+          <a href="{{ '/research' | relative_url }}">研究方向</a>
+          <a href="{{ '/projects' | relative_url }}">项目系统</a>
+          <a href="{{ '/publications' | relative_url }}">论文发表</a>
+          <a href="{{ '/teaching' | relative_url }}">课程</a>
+          <a href="{{ '/students' | relative_url }}">研究生就业</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrapper">
+      <div class="footer-content">
+        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
+        <p>{{ site.author.institution }} | {{ site.author.department }}</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
