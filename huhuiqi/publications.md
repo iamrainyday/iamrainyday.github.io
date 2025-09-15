@@ -3,166 +3,123 @@ layout: page
 title: 论文发表
 ---
 
-<div class="content-card">
-  <h3>📊 发表统计</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem;">
-    <div style="text-align: center; padding: 1rem; background: #f8f9fa; border-radius: 8px;">
-      <h4 style="color: #3498db; font-size: 2rem; margin: 0;">45+</h4>
-      <p>期刊论文</p>
-    </div>
-    <div style="text-align: center; padding: 1rem; background: #f8f9fa; border-radius: 8px;">
-      <h4 style="color: #e74c3c; font-size: 2rem; margin: 0;">35+</h4>
-      <p>会议论文</p>
-    </div>
-    <div style="text-align: center; padding: 1rem; background: #f8f9fa; border-radius: 8px;">
-      <h4 style="color: #f39c12; font-size: 2rem; margin: 0;">2800+</h4>
-      <p>总引用次数</p>
-    </div>
-    <div style="text-align: center; padding: 1rem; background: #f8f9fa; border-radius: 8px;">
-      <h4 style="color: #27ae60; font-size: 2rem; margin: 0;">28</h4>
-      <p>H-Index</p>
-    </div>
-  </div>
-</div>
 
 <div class="content-card">
-  <h3>🏆 代表性论文 (2024)</h3>
+  <h3>🏆 代表性论文</h3>
   <ul class="item-list">
     <li>
-      <div class="item-title">MultiModal-GPT: A Large-Scale Multimodal Foundation Model for Medical Diagnosis</div>
-      <div class="item-meta">Nature Machine Intelligence, 2024 | IF: 25.8 | 一作</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Zhang Wei, Li Ming, et al. 
-        提出了首个大规模多模态医疗诊断基础模型，在多个医疗数据集上取得SOTA性能。
-        <a href="#" style="color: #3498db;">[PDF]</a> 
-        <a href="#" style="color: #e74c3c;">[Code]</a>
-      </p>
-      <div class="skills-tags">
-        <span class="skill-tag">多模态学习</span>
-        <span class="skill-tag">医疗AI</span>
-        <span class="skill-tag">大模型</span>
-      </div>
+      <div class="item-title">Mariana: Exploring Native SkipList Index Design for Disaggregated Memory</div>
+      <div class="item-meta">TPDS 2025 | Xing Wei, Ke Wang, Yinjun Han, Hao Jin, Yaofeng Tu, <strong>Huiqi Hu</strong>, Xuan Zhou, Minghao Zhao</div>
     </li>
     
     <li>
-      <div class="item-title">Efficient Graph Neural Networks via Dynamic Sparsification</div>
-      <div class="item-meta">AAAI 2024 (CCF-A) | 一作</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Chen Jie, Wang Lei. 
-        提出动态稀疏化图神经网络，在保持精度的同时大幅降低计算复杂度。
-        <a href="#" style="color: #3498db;">[PDF]</a> 
-        <a href="#" style="color: #e74c3c;">[Code]</a>
-      </p>
-      <div class="skills-tags">
-        <span class="skill-tag">图神经网络</span>
-        <span class="skill-tag">模型压缩</span>
-        <span class="skill-tag">优化算法</span>
-      </div>
+      <div class="item-title">Aion: Live Migration for In-Memory Databases with Zero Downtime and Reduced Redundant Data Transfer</div>
+      <div class="item-meta">Data Science and Engineering 2025 | Huijie Cao, Chenfeng Huang, Shengchi Liu, <strong>Huiqi Hu</strong>, Minghao Zhao, Xuan Zhou, Yaofeng Tu, Weining Qian</div>
     </li>
     
     <li>
-      <div class="item-title">Federated Learning with Differential Privacy for Smart Healthcare</div>
-      <div class="item-meta">IEEE Transactions on Medical Imaging, 2024 | IF: 11.0 | 通讯作者</div>
-      <p>
-        Liu Yang, <strong>Huiqi Hu*</strong>, Zhou Xiaoming. 
-        在智能医疗场景下实现隐私保护的联邦学习，确保患者数据安全。
-        <a href="#" style="color: #3498db;">[PDF]</a>
-      </p>
-      <div class="skills-tags">
-        <span class="skill-tag">联邦学习</span>
-        <span class="skill-tag">隐私保护</span>
-        <span class="skill-tag">医疗AI</span>
-      </div>
+      <div class="item-title">PG-RAC: PostgreSQL-based Database with Shared Cache for Multi-write Transaction</div>
+      <div class="item-meta">Int. J. Softw. Informatics 2025 | Yujie Yin, Haoyang Shi, Zihao Fan, Huahui Zhou, Shengchi Liu, <strong>Huiqi Hu</strong>, Xing Wei, Hedui Chen, Yaofeng Tu, Peng Cai, Xuan Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">SuccinctKV: a CPU-efficient LSM-tree Based KV Store with Scan-based Compaction</div>
+      <div class="item-meta">ACM Trans. Arch. Code Optim 2024 | Yinan Zhang, Shun Yang, <strong>Huiqi Hu</strong>, Chengcheng Yang, Peng Cai, Xuan Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Functionality-Aware Database Tuning via Multi-Task Learning</div>
+      <div class="item-meta">ICDE 2024 | Zhongwei Yue, Shujian Peng, Peng Cai, Xuan Zhou, <strong>Huiqi Hu</strong>, Rong Zhang, Quanqing Xu, Chuanhui Yang</div>
+    </li>
+    
+    <li>
+      <div class="item-title">PG-RAC:基于PostgreSQL的共享缓存多写事务处理数据库</div>
+      <div class="item-meta">软件学报 2024 | 印钰杰, 史浩洋, 范自豪, 周华辉, 刘晟驰, <strong>胡卉芪</strong>, 魏星, 陈河堆, 屠要峰, 蔡鹏, 周烜</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Fast Commitment for Geo-Distributed Transactions via Decentralized Coordinators</div>
+      <div class="item-meta">VLDB 2024 | Zihao Zhang, <strong>Huiqi Hu</strong>, Xuan Zhou, Yaofeng Tu, Weining Qian, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Hill-Cache: Adaptive Integration of Recency and Frequency in Caching with Hill-Climbing</div>
+      <div class="item-meta">ICDE 2024 | Yunfan Li, <strong>Huiqi Hu</strong>, Chaojing Lei, Xuan Zhou, Weining Qian</div>
+    </li>
+    
+    <li>
+      <div class="item-title">面向 SELECT 和 SORT 的数据库算子缓存的设计与实现</div>
+      <div class="item-meta">计算机学报 2024 | 蔡万里, 王新硕, <strong>胡卉芪</strong>, 蔡鹏, 周烜, 屠要峰 <span style="color: #e74c3c;">🏆 NDBC 2023 萨师煊优秀学生论文</span></div>
+    </li>
+    
+    <li>
+      <div class="item-title">PM-Blade: A Persistent Memory Augmented LSM-tree Storage for Database</div>
+      <div class="item-meta">ICDE 2023 | Yinan Zhang, <strong>Huiqi Hu</strong>, Xuan Zhou, Enlong Xie, Hongdi Ren, Le Jin</div>
+    </li>
+    
+    <li>
+      <div class="item-title">STARRY: Multi-master Transaction Processing on Semi-leader Architecture</div>
+      <div class="item-meta">VLDB 2022 | Zihao Zhang, <strong>Huiqi Hu</strong>, Xuan Zhou, Jiang Wang</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Hockey: A Hybrid PMem-SSD Storage Engine for Analytical Database</div>
+      <div class="item-meta">CIKM 2022 | Yuhang Jia, <strong>Huiqi Hu</strong>, Xuan Zhou, Weining Qian</div>
+    </li>
+    
+    <li>
+      <div class="item-title">RotorcRaft: Scalable Follower-Driven Raft on RDMA</div>
+      <div class="item-meta">DASFAA 2022 | Xuecheng Qi, <strong>Huiqi Hu</strong>, Xing Wei, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">SLIMSTORE: A Cloud-based Deduplication System for Multi-version Backups</div>
+      <div class="item-meta">ICDE 2021 | Zihao Zhang, <strong>Huiqi Hu</strong>, Zhihui Xue, Changcheng Chen, Yang Yu, Cuiyun Fu, Xuan Zhou, Feifei Li</div>
+    </li>
+    
+    <li>
+      <div class="item-title">RS-store: RDMA-enabled skiplist-based key-value store for efficient range query</div>
+      <div class="item-meta">Frontiers Comput. Sci. 2021 | Chenchen Huang, <strong>Huiqi Hu</strong>, Xuecheng Qi, Xuan Zhou, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Jasmine: Exploring the Dependency-Aware Execution on Distributed Shared Memory</div>
+      <div class="item-meta">CIKM 2021 | Xing Wei, <strong>Huiqi Hu</strong>, Xuan Zhou, Xuecheng Qi, Weining Qian, Jiang Wang, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Dependency Preserved Raft for Transactions</div>
+      <div class="item-meta">DASFAA 2020 | Zihao Zhang, <strong>Huiqi Hu</strong>, Yang Yu, Weining Qian, Ke Shu</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Scheduling Resources to Multiple Pipelines of One Query in a Main Memory Database Cluster</div>
+      <div class="item-meta">IEEE Trans. Knowl. Data Eng. 2020 | Zhuhe Fang, Chuliang Weng, Li Wang, <strong>Huiqi Hu</strong>, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">High Performance Design for Redis with Fast Event-Driven RDMA RPCs</div>
+      <div class="item-meta">DASFAA 2020 | Xuecheng Qi, <strong>Huiqi Hu</strong>, Xing Wei, Chengcheng Huang, Xuan Zhou, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">In-memory transaction processing: efficiency and scalability considerations</div>
+      <div class="item-meta">Knowl. Inf. Syst. 2019 | <strong>Huiqi Hu</strong>, Xuan Zhou, Tao Zhu, Weining Qian, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">SolarDB: Toward a Shared-Everything Database on Distributed Log-Structured Storage</div>
+      <div class="item-meta">ACM Trans. Storage 2019 | Tao Zhu, Zhuoyue Zhao, Feifei Li, Weining Qian, Aoying Zhou, Dong Xie, Ryan Stutsman, HaiNing Li, <strong>Huiqi Hu</strong></div>
+    </li>
+    
+    <li>
+      <div class="item-title">Interactive Transaction Processing for In-Memory Database System</div>
+      <div class="item-meta">DASFAA 2018 | Tao Zhu, Donghui Wang, <strong>Huiqi Hu</strong>, Weining Qian, Xiaoling Wang, Aoying Zhou</div>
+    </li>
+    
+    <li>
+      <div class="item-title">Solar: Towards a Shared-Everything Database on Distributed Log-Structured Storage</div>
+      <div class="item-meta">USENIX ATC 2018 | Tao Zhu, Zhuoyue Zhao, Feifei Li, Weining Qian, Aoying Zhou, Dong Xie, Ryan Stutsman, HaiNing Li, <strong>Huiqi Hu</strong></div>
     </li>
   </ul>
-</div>
-
-<div class="content-card">
-  <h3>📑 近期论文 (2023)</h3>
-  <ul class="item-list">
-    <li>
-      <div class="item-title">Attention-based Multi-Scale Feature Fusion for Real-Time Object Detection</div>
-      <div class="item-meta">Computer Vision and Image Understanding, 2023 | IF: 4.3 | 一作</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Li Hua, Zhang Bo. 
-        基于注意力机制的多尺度特征融合目标检测算法，在COCO数据集上达到最佳性能。
-      </p>
-    </li>
-    
-    <li>
-      <div class="item-title">Interpretable Deep Learning for Medical Image Analysis</div>
-      <div class="item-meta">MICCAI 2023 (CCF-B) | 一作</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Wang Mei, Liu Gang. 
-        可解释深度学习在医学影像分析中的应用，提升模型透明度和临床可接受性。
-      </p>
-    </li>
-    
-    <li>
-      <div class="item-title">Large Language Models for Scientific Discovery</div>
-      <div class="item-meta">Nature Communications, 2023 | IF: 17.9 | 二作</div>
-      <p>
-        Chen Li, <strong>Huiqi Hu</strong>, Yang Fei, et al. 
-        探索大语言模型在科学发现中的应用潜力，展示AI辅助研究的新范式。
-      </p>
-    </li>
-  </ul>
-</div>
-
-<div class="content-card">
-  <h3>📚 经典论文 (2020-2022)</h3>
-  <ul class="item-list">
-    <li>
-      <div class="item-title">Self-Supervised Learning for Medical Image Segmentation</div>
-      <div class="item-meta">IEEE TMI, 2022 | IF: 11.0 | 一作 | 引用次数: 285+</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Zhou Min, Li Wei. 
-        首次将自监督学习应用于医学图像分割，在数据稀缺场景下取得突破性进展。
-      </p>
-    </li>
-    
-    <li>
-      <div class="item-title">Graph Convolutional Networks for Social Network Analysis</div>
-      <div class="item-meta">ICLR 2021 (CCF-A) | 一作 | 引用次数: 420+</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Wang Jian, Liu Tao. 
-        改进的图卷积网络在社交网络分析中的应用，成为该领域经典方法之一。
-      </p>
-    </li>
-    
-    <li>
-      <div class="item-title">Deep Reinforcement Learning for Autonomous Driving</div>
-      <div class="item-meta">IEEE IV, 2020 | 一作 | 引用次数: 190+</div>
-      <p>
-        <strong>Huiqi Hu</strong>, Zhang Hao, Chen Yu. 
-        深度强化学习在自动驾驶决策中的应用，为后续研究奠定重要基础。
-      </p>
-    </li>
-  </ul>
-</div>
-
-<div class="content-card">
-  <h3>🔍 学术服务</h3>
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
-    <div>
-      <h4>期刊审稿人</h4>
-      <ul>
-        <li>IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
-        <li>Nature Machine Intelligence</li>
-        <li>IEEE Transactions on Medical Imaging</li>
-        <li>Computer Vision and Image Understanding</li>
-        <li>Neural Networks</li>
-      </ul>
-    </div>
-    <div>
-      <h4>会议程序委员会</h4>
-      <ul>
-        <li>AAAI 2024, 2025 (Senior PC)</li>
-        <li>IJCAI 2023, 2024 (PC Member)</li>
-        <li>ICLR 2024 (Reviewer)</li>
-        <li>NeurIPS 2023, 2024 (Reviewer)</li>
-        <li>CVPR 2024 (Area Chair)</li>
-      </ul>
-    </div>
-  </div>
 </div>

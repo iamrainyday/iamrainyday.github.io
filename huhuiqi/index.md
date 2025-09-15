@@ -69,7 +69,7 @@ layout: default
 </div>
 
 <div class="content-card">
-  <h3>学术履历</h3>
+  <h3>履历</h3>
   <ul class="item-list">
     <li>
       <div class="item-title">{{ site.author.position }}</div>
