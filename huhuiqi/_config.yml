@@ -24,9 +24,6 @@ plugins:
   - jekyll-seo-tag
 
 # Navigation
-header_pages:
-  - index.md
-
 # Exclude from processing
 exclude:
   - Gemfile
