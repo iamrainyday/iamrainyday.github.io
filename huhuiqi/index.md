@@ -33,6 +33,30 @@ layout: default
       <span class="skill-tag">计算机视觉</span>
       <span class="skill-tag">自然语言处理</span>
     </div>
+
+    <h3>快速导航</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem;">
+      <a href="{{ '/research' | relative_url }}" style="display: block; padding: 1rem; background: #3498db; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
+        <strong>🔬 研究方向</strong><br>
+        <small>了解我的研究领域</small>
+      </a>
+      <a href="{{ '/projects' | relative_url }}" style="display: block; padding: 1rem; background: #e74c3c; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
+        <strong>🚀 项目系统</strong><br>
+        <small>查看科研项目</small>
+      </a>
+      <a href="{{ '/publications' | relative_url }}" style="display: block; padding: 1rem; background: #f39c12; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
+        <strong>📄 论文发表</strong><br>
+        <small>学术成果展示</small>
+      </a>
+      <a href="{{ '/teaching' | relative_url }}" style="display: block; padding: 1rem; background: #27ae60; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
+        <strong>👨‍🏫 课程</strong><br>
+        <small>教学课程介绍</small>
+      </a>
+      <a href="{{ '/students' | relative_url }}" style="display: block; padding: 1rem; background: #9b59b6; color: white; text-decoration: none; border-radius: 8px; text-align: center; transition: background 0.3s;">
+        <strong>🎓 研究生就业</strong><br>
+        <small>学生就业指导</small>
+      </a>
+    </div>
   </div>
 </div>
 

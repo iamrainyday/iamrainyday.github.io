@@ -181,6 +181,37 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* 导航卡片悬停效果 */
+a[style*="background: #3498db"]:hover {
+  background: #2980b9 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+a[style*="background: #e74c3c"]:hover {
+  background: #c0392b !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+a[style*="background: #f39c12"]:hover {
+  background: #e67e22 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+a[style*="background: #27ae60"]:hover {
+  background: #229954 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+a[style*="background: #9b59b6"]:hover {
+  background: #8e44ad !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .site-nav {
