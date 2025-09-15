@@ -10,7 +10,7 @@ title: 课程
       <strong>数据库系统内核原理与实践（“水杉”MOOC 课程）</strong>
       <ul>
         <li><a href="https://www.shuishan.net.cn/home#/Course/CourseDetail?courseId=1888745117930643457">水杉 MOOC 课程页面</a>（https://www.shuishan.net.cn/home#/Course/CourseDetail?courseId=1888745117930643457，校外学生需注册）</li>
-        <li><a href="https://oceanbase.github.io/miniob/db_course_lab/cloudlab_setup/">实践内容（https://oceanbase.github.io/miniob/db_course_lab/overview/）</a></li>
+        <li><a href="https://oceanbase.github.io/miniob/db_course_lab/overview/">实践内容（https://oceanbase.github.io/miniob/db_course_lab/overview/）</a></li>
       </ul>
     </li>
     <li>
