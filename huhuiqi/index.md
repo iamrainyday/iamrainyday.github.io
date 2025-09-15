@@ -79,18 +79,16 @@ layout: default
   <ul class="item-list">
     <li>
       <div class="item-title">{{ site.author.position }}</div>
-      <div class="item-meta">{{ site.author.institution }} | 2020年至今</div>
-      <p>负责人工智能相关课程教学，主持多项科研项目，指导硕博研究生。</p>
+      <div class="item-meta">{{ site.author.institution }} 工作经历| 2016年至今</div>
+      <p>先后担任助理教授、副教授、教授</p>
     </li>
     <li>
-      <div class="item-title">博士后研究员</div>
-      <div class="item-meta">清华大学 | 2018-2020</div>
-      <p>在计算机科学与技术系进行博士后研究，专注于深度学习理论与应用。</p>
+      <div class="item-title">博士</div>
+      <div class="item-meta">清华大学 | 2011-2016</div>
     </li>
     <li>
-      <div class="item-title">博士学位</div>
-      <div class="item-meta">北京大学 | 2013-2018</div>
-      <p>获得计算机科学与技术博士学位，研究方向为机器学习与数据挖掘。</p>
+      <div class="item-title">学士学位</div>
+      <div class="item-meta">西安电子科技大学| 2007-2011</div>
     </li>
   </ul>
 </div>
