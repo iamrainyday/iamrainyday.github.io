@@ -4,7 +4,7 @@ layout: default
 
 <div class="profile-section">
   <div class="profile-image">
-    <img src="{{ '/assets/images/profile.JPEG' | relative_url }}" alt="胡卉芪" />
+    <img src="{{ '/assets/images/profile.JPG' | relative_url }}" alt="胡卉芪" />
     <h2>胡卉芪 Huiqi Hu</h2>
 
     <p><strong>Email: hqhu@dase.ecnu.edu.cn</strong></p>
@@ -18,12 +18,10 @@ layout: default
     </p>
     
 
-    <h3>研究兴趣</h3>
+    <h3 style="color: #2c3e50; font-size: 1.4rem; margin-top: 2rem; margin-bottom: 0.5rem; padding-bottom: 0.5rem; border-bottom: 2px solid #3498db; display: inline-block;">🎯 研究兴趣</h3>
     <div class="skills-tags">
       <span class="skill-tag">数据管理系统/数据系统</span>
-      <span class="skill-tag"> " "</span>
       <span class="skill-tag">面向Data+AI的智能系统</span>
-      <span class="skill-tag"> " "</span>
       <span class="skill-tag">数据系统智能体(Agent)</span>
     </div>
 
