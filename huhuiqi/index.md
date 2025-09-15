@@ -4,7 +4,7 @@ layout: default
 
 <div class="profile-section">
   <div class="profile-image">
-    <img src="{{ '/assets/images/profile.JPG' | relative_url }}" alt="胡卉芪" />
+    <img src="{{ '/assets/images/profile.JPEG' | relative_url }}" alt="胡卉芪" />
     <h2>胡卉芪 Huiqi Hu</h2>
 
     <p><strong>email: hqhu@dase.ecnu.edu.cn</strong></p>
